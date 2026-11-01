@@ -110,7 +110,7 @@ python3 tools/build-press-docs.py {slug}
 
 Закоммитить и запушить в `main`. Дождаться, пока GitHub Pages выложит
 страницу: обложка должна открываться по адресу
-`https://skrasin.github.io/fancymusic/releases/{slug}/cover.jpg` — без этого
+`https://fancymusiclabel.github.io/releases/{slug}/cover.jpg` — без этого
 следующий шаг соберёт документ без картинки.
 
 ## 7. Сделать версию в Google Docs
@@ -144,7 +144,7 @@ python3 tools/build-press-docs.py {slug}
 - страница открывается, обложка и плеер на месте, на 390px нет
   горизонтальной прокрутки, консоль чистая
 - DOCX и PDF отдаются с кодом 200, ссылки в них кликабельные
-- сказать пользователю ссылку `https://skrasin.github.io/fancymusic/releases/{slug}/`,
+- сказать пользователю ссылку `https://fancymusiclabel.github.io/releases/{slug}/`,
   что осталось уточнить и что нужно сделать руками (доступ к Google Docs)
 
 Домены `fancymusic.ru`, `*.bandcamp.com`, `band.link` и `github.io` закрыты

@@ -105,7 +105,7 @@
 ## Публикация
 
 Пуш в `main` с изменениями в `docs/` или `brand/` выкладывает сайт на GitHub
-Pages: https://skrasin.github.io/fancymusic/. Перед публикацией workflow
+Pages: https://fancymusiclabel.github.io/. Перед публикацией workflow
 сам вызывает `tools/sync-brand.sh`.
 
 Приватные и несогласованные материалы в `docs/` не класть: репозиторий

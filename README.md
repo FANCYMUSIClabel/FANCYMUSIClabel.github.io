@@ -9,7 +9,7 @@
 | Что | Где |
 |---|---|
 | Инструкция агенту | `CLAUDE.md` |
-| Дизайн-система: токены, шрифты, компоненты | `brand/`, живая спецификация — [`/design/`](https://skrasin.github.io/fancymusic/design/) |
+| Дизайн-система: токены, шрифты, компоненты | `brand/`, живая спецификация — [`/design/`](https://fancymusiclabel.github.io/design/) |
 | Шаблоны текста, соцсетей и страницы релиза | `templates/` |
 | Материалы по проектам | `projects/{slug}/` |
 | Опубликованные страницы (GitHub Pages) | `docs/` |
@@ -25,7 +25,7 @@
 
 Пуш в `main` с изменениями в `docs/` или `brand/` запускает
 `.github/workflows/pages.yml` и выкладывает сайт:
-https://skrasin.github.io/fancymusic/
+https://fancymusiclabel.github.io/
 
 ## Разовая настройка GitHub Pages
 

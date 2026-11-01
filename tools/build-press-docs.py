@@ -459,7 +459,7 @@ def build_pdf(doc_data: dict, page: dict, cover: Path | None, dst: Path) -> None
 
 
 # --------------------------------------------------------------------- main
-SITE_BASE = "https://skrasin.github.io/fancymusic"
+SITE_BASE = "https://fancymusiclabel.github.io"
 
 GDOC_CSS = """
 body { font-family: Arial, sans-serif; font-size: 11pt; color: #2e2e2e; }
