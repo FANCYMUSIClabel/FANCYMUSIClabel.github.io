@@ -129,6 +129,8 @@
 .rl-event__where { margin-top: var(--fm-space-2); color: var(--fm-text-muted); }
 .rl-event__cols { display: grid; gap: var(--fm-space-5); margin-top: var(--fm-space-5); }
 @media (min-width: 700px) { .rl-event__cols { grid-template-columns: 1fr 1fr; } }
+/* одна колонка (только программа или только исполнители) — на всю ширину */
+.rl-event__cols > :only-child { grid-column: 1 / -1; }
 .rl-event__cols ul { list-style: none; padding: 0; margin-top: var(--fm-space-2); }
 .rl-event__cols li { padding-block: var(--fm-space-1); border-bottom: var(--fm-border) solid var(--fm-rule);
   font-size: var(--fm-text-small); }
