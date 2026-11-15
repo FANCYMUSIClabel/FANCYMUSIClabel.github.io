@@ -180,6 +180,8 @@ def build_docx(doc_data: dict, page: dict, cover: Path | None, dst: Path) -> Non
         style_run(p.add_run(values["PRESS_CONTACT"]), size=10, color=INK, bold=True)
     for label, value, url in (("Email", values["PRESS_EMAIL"], None),
                               ("Telegram", values["PRESS_TELEGRAM"], None)):
+        if not value:
+            continue
         text = re.sub(r"<[^>]+>", "", value)
         href = re.search(r'href="([^"]+)"', value)
         p = document.add_paragraph()
@@ -433,8 +435,8 @@ def build_pdf(doc_data: dict, page: dict, cover: Path | None, dst: Path) -> None
 <h2>Контакты для прессы</h2>
 <div class="contacts">
   {f"<p><b>{values['PRESS_CONTACT']}</b></p>" if values.get('PRESS_CONTACT') else ''}
-  <p>Email – {values['PRESS_EMAIL']}</p>
-  <p>Telegram – {values['PRESS_TELEGRAM']}</p>
+  {f"<p>Email – {values['PRESS_EMAIL']}</p>" if values['PRESS_EMAIL'] else ''}
+  {f"<p>Telegram – {values['PRESS_TELEGRAM']}</p>" if values['PRESS_TELEGRAM'] else ''}
 </div>
 <p class="colophon"><b>FANCYMUSIC</b> · Пресс-релиз · {values['RELEASE_DATE']}</p>
 """
@@ -513,7 +515,7 @@ def build_gdoc_html(doc_data: dict, page: dict, slug: str, dst: Path) -> None:
 {event_html(page.get('event'))}
 {''.join(sections)}
 <h2>Контакты для прессы</h2>
-<p>{f"<b>{values['PRESS_CONTACT']}</b><br>" if values.get('PRESS_CONTACT') else ''}Email – {values['PRESS_EMAIL']}<br>Telegram – {values['PRESS_TELEGRAM']}</p>
+<p>{f"<b>{values['PRESS_CONTACT']}</b><br>" if values.get('PRESS_CONTACT') else ''}{'<br>'.join(x for x in (f"Email – {values['PRESS_EMAIL']}" if values['PRESS_EMAIL'] else '', f"Telegram – {values['PRESS_TELEGRAM']}" if values['PRESS_TELEGRAM'] else '') if x)}</p>
 <p class="small">FANCYMUSIC · Пресс-релиз · {values['RELEASE_DATE']}</p>
 </body></html>"""
     dst.write_text(html)

@@ -217,6 +217,9 @@ def main() -> int:
     for css in ("fonts.css", "design-tokens.css", "base.css", "release.css"):
         digest = hashlib.sha1((ROOT / "docs/assets" / css).read_bytes()).hexdigest()[:8]
         page = page.replace(f'assets/{css}"', f'assets/{css}?v={digest}"')
+    # пустые строки контактов не показываем
+    page = page.replace('<li><span>Email</span><span></span></li>', "")
+    page = page.replace('<li><span>Telegram</span><span></span></li>', "")
     # нет страницы релиза — кнопка не нужна
     page = page.replace('<a class="fm-btn fm-btn--outline" href="">Страница релиза</a>', "")
     (out_dir / "index.html").write_text(page)
