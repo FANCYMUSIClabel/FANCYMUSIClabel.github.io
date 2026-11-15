@@ -43,10 +43,18 @@ def event_block(ev) -> str:
     if not ev:
         return ""
 
-    def column(title, rows):
+    def person(r):
+        # «Имя, инструменты» → имя полужирным, инструменты мельче и серым строкой ниже
+        name, _, role = r.partition(", ")
+        if not role:
+            return r
+        return ('<span class="rl-event__name">' + name + '</span>'
+                '<span class="rl-event__role">' + role + "</span>")
+
+    def column(title, rows, fmt=lambda r: r):
         if not rows:
             return ""
-        lis = "".join("<li>" + r + "</li>" for r in rows)
+        lis = "".join("<li>" + fmt(r) + "</li>" for r in rows)
         return '<div><p class="fm-eyebrow">' + title + "</p><ul>" + lis + "</ul></div>"
 
     parts = ['<section class="rl-event">',
@@ -57,7 +65,7 @@ def event_block(ev) -> str:
         parts.append('<p class="rl-event__where">' + where + "</p>")
     if ev.get("intro"):
         parts.append("<p>" + ev["intro"] + "</p>")
-    cols = column("Программа", ev.get("program")) + column("Исполнители", ev.get("lineup"))
+    cols = column("Программа", ev.get("program")) + column("Исполнители", ev.get("lineup"), person)
     if cols:
         parts.append('<div class="rl-event__cols">' + cols + "</div>")
     if ev.get("note"):

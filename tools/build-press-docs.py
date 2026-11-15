@@ -266,7 +266,12 @@ def add_event_docx(document, ev) -> None:
         for r in rows:
             li = document.add_paragraph()
             li.paragraph_format.space_after = Pt(1)
-            style_run(li.add_run(r), size=10)
+            name, _, role = r.partition(", ")
+            if title == "Исполнители" and role:
+                style_run(li.add_run(name), size=10, bold=True)
+                style_run(li.add_run(" – " + role), size=10, color=GREY)
+            else:
+                style_run(li.add_run(r), size=10)
     if ev["note"]:
         inline(document.add_paragraph(), ev["note"])
     if ev["url"]:
@@ -285,6 +290,9 @@ def event_html(ev) -> str:
         out.append(f"<p>{ev['intro']}</p>")
     for title, rows in (("Программа", ev["program"]), ("Исполнители", ev["lineup"])):
         if rows:
+            if title == "Исполнители":
+                rows = [f"<b>{n}</b> – {r}" if r else n
+                        for n, _, r in (x.partition(", ") for x in rows)]
             out.append(f"<p class='small'>{title}</p><p>" + "<br>".join(rows) + "</p>")
     if ev["note"]:
         out.append(f"<p>{ev['note']}</p>")
