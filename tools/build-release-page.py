@@ -209,6 +209,9 @@ def main() -> int:
     values["PDF_SIZE"] = size_kb(out_dir / "press-release.pdf")
 
     page = template
+    # одноимённый альбом: «Артист – Артист» не пишем, оставляем одно название
+    if values.get("ARTIST") == values.get("RELEASE_TITLE"):
+        page = page.replace("{{ARTIST}} – {{RELEASE_TITLE}}", "{{ARTIST}}")
     contact = values.pop("PRESS_CONTACT", "").strip()
     values["PRESS_CONTACT_ROW"] = (
         "<li><span>Контакт</span><span>" + contact + "</span></li>" if contact else "")
