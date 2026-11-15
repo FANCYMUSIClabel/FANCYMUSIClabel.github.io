@@ -149,6 +149,10 @@ def build_docx(doc_data: dict, page: dict, cover: Path | None, dst: Path) -> Non
     # --- лид, основной текст, цитата (эпиграф — перед лидом)
     document.add_paragraph().paragraph_format.space_after = Pt(0)
     inline(document.add_paragraph(), doc_data["lead"], size=13, bold=True)
+    ev = page.get("event") or {}
+    early = ev.get("position") == "after_lead"
+    if early:
+        add_event_docx(document, ev)
     lead_url = values.get("LEAD_LINK_URL", "").strip()
     if lead_url:
         p = document.add_paragraph()
@@ -160,7 +164,8 @@ def build_docx(doc_data: dict, page: dict, cover: Path | None, dst: Path) -> Non
     if doc_data["quote"] and not doc_data["quote_first"]:
         render_quote(document, *doc_data["quote"])
 
-    add_event_docx(document, page.get("event"))
+    if not early:
+        add_event_docx(document, ev)
 
     # --- разделы из прозы
     for heading, blocks in doc_data["sections"]:
@@ -435,10 +440,10 @@ def build_pdf(doc_data: dict, page: dict, cover: Path | None, dst: Path) -> None
   <p><b>Ссылки на стриминги:</b> <a href="{values['PREVIEW_URL']}">{values['PREVIEW_URL']}</a></p>
   {f'<p><b>Страница релиза:</b> <a href="{values["RELEASE_URL"]}">{values["RELEASE_URL"]}</a></p>' if values['RELEASE_URL'] else ''}
 </div>
-<p class="lead"><b>{release_content.bold_to_html(doc_data['lead'])}</b></p>{lead_link_html(values)}
+<p class="lead"><b>{release_content.bold_to_html(doc_data['lead'])}</b></p>{event_html(page.get('event')) if (page.get('event') or {}).get('position') == 'after_lead' else ''}{lead_link_html(values)}
 {html_blocks(doc_data['body'])}
 {'' if doc_data['quote_first'] else quote_html}
-{event_html(page.get('event'))}
+{'' if (page.get('event') or {}).get('position') == 'after_lead' else event_html(page.get('event'))}
 {''.join(sections)}
 <h2>Контакты для прессы</h2>
 <div class="contacts">
@@ -517,10 +522,10 @@ def build_gdoc_html(doc_data: dict, page: dict, slug: str, dst: Path) -> None:
 <h1>{doc_data['title']}</h1>
 {quote if doc_data['quote_first'] else ''}
 <p><b>Ссылки на стриминги:</b> <a href="{values['PREVIEW_URL']}">{values['PREVIEW_URL']}</a>{f'<br>{chr(10)}<b>Страница релиза:</b> <a href="{values["RELEASE_URL"]}">{values["RELEASE_URL"]}</a>' if values['RELEASE_URL'] else ''}</p>
-<p class="lead"><b>{release_content.bold_to_html(doc_data['lead'])}</b></p>{lead_link_html(values)}
+<p class="lead"><b>{release_content.bold_to_html(doc_data['lead'])}</b></p>{event_html(page.get('event')) if (page.get('event') or {}).get('position') == 'after_lead' else ''}{lead_link_html(values)}
 {html_blocks(doc_data['body'])}
 {'' if doc_data['quote_first'] else quote}
-{event_html(page.get('event'))}
+{'' if (page.get('event') or {}).get('position') == 'after_lead' else event_html(page.get('event'))}
 {''.join(sections)}
 <h2>Контакты для прессы</h2>
 <p>{f"<b>{values['PRESS_CONTACT']}</b><br>" if values.get('PRESS_CONTACT') else ''}{'<br>'.join(x for x in (f"Email – {values['PRESS_EMAIL']}" if values['PRESS_EMAIL'] else '', f"Telegram – {values['PRESS_TELEGRAM']}" if values['PRESS_TELEGRAM'] else '') if x)}</p>

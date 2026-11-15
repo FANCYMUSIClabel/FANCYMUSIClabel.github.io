@@ -123,6 +123,7 @@
    Отдельный блок с рамкой: дата и место должны читаться с одного взгляда,
    программа и состав — ниже, кнопка билета — в конце. */
 .rl-event { border: var(--fm-border) solid var(--fm-rule); padding: var(--fm-space-5); }
+.rl-lead + .rl-event { margin-top: 2em; }
 .rl-event__when { font-family: var(--fm-font-display); font-weight: var(--fm-weight-display-bold);
   text-transform: uppercase; font-size: var(--fm-text-h2); line-height: var(--fm-leading-heading);
   margin-top: var(--fm-space-2); }

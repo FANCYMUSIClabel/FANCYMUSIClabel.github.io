@@ -190,7 +190,12 @@ def main() -> int:
         values.pop("PRESS_PHOTO_CREDIT", None)
         values.pop("PRESS_PHOTO_ALT", None)
 
-    values["EVENT_BLOCK"] = event_block(data.get("event"))
+    # event.position = "after_lead" — блок события сразу после лида, иначе после фото
+    ev = data.get("event") or {}
+    block = event_block(ev)
+    early = ev.get("position") == "after_lead"
+    values["EVENT_AFTER_LEAD"] = block if early else ""
+    values["EVENT_BLOCK"] = "" if early else block
 
     embed = values.pop("PLAYER_EMBED", "").strip()
     values["PLAYER_BLOCK"] = f'<div class="rl-player">{embed}</div>' if embed else ""
