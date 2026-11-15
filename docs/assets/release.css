@@ -134,11 +134,10 @@
 .rl-event__cols ul { list-style: none; padding: 0; margin-top: var(--fm-space-2); }
 .rl-event__cols li { padding-block: var(--fm-space-1); border-bottom: var(--fm-border) solid var(--fm-rule);
   font-size: var(--fm-text-small); }
-/* исполнитель слева, инструменты справа; в узкой колонке переносятся под имя */
-.rl-event__cols li:has(.rl-event__name) { display: flex; flex-wrap: wrap; align-items: baseline;
-  justify-content: space-between; column-gap: var(--fm-space-4); }
-.rl-event__name { font-weight: 600; font-size: var(--fm-text-body); }
-.rl-event__role { color: var(--fm-ink-600); text-align: right; margin-left: auto; }
+/* исполнитель и сразу за ним, в той же строке, его инструменты */
+.rl-event__name { font-weight: 600; }
+.rl-event__role { color: var(--fm-ink-600); }
+.rl-event__role::before { content: " – "; }
 .rl-event__note { margin-top: var(--fm-space-5); }
 .rl-event .fm-btn { margin-top: var(--fm-space-5); }
 
