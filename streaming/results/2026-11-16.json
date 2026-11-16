@@ -949,5 +949,255 @@
         ]
       }
     }
+  },
+  {
+    "names": [
+      "Ivan Chernobaev",
+      "Иван Чернобаев"
+    ],
+    "platforms": {
+      "Yandex": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "VK": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "Zvuk": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "Apple": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "error: page.goto: Target page, context or browser has been closed"
+        ]
+      },
+      "Spotify": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "error: page.goto: Target page, context or browser has been closed"
+        ]
+      },
+      "YT": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "error: page.goto: Target page, context or browser has been closed"
+        ]
+      }
+    }
+  },
+  {
+    "names": [
+      "Svetlana Lavrova",
+      "Светлана Лаврова"
+    ],
+    "platforms": {
+      "Yandex": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "VK": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "Zvuk": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "Apple": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "error: page.goto: Target page, context or browser has been closed"
+        ]
+      },
+      "Spotify": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "error: page.goto: Target page, context or browser has been closed"
+        ]
+      },
+      "YT": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "error: page.goto: Target page, context or browser has been closed"
+        ]
+      }
+    }
+  },
+  {
+    "names": [
+      "Vladimir Martynov",
+      "Владимир Мартынов"
+    ],
+    "platforms": {
+      "Yandex": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "VK": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "Zvuk": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "Apple": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "error: page.goto: Target page, context or browser has been closed"
+        ]
+      },
+      "Spotify": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "error: page.goto: Target page, context or browser has been closed"
+        ]
+      },
+      "YT": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "error: page.goto: Target page, context or browser has been closed"
+        ]
+      }
+    }
+  },
+  {
+    "names": [
+      "Roust Poziumski",
+      "Руст Позюмский"
+    ],
+    "platforms": {
+      "Yandex": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "VK": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "Zvuk": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "Apple": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "error: page.goto: Target page, context or browser has been closed"
+        ]
+      },
+      "Spotify": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "error: page.goto: Target page, context or browser has been closed"
+        ]
+      },
+      "YT": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "error: page.goto: Target page, context or browser has been closed"
+        ]
+      }
+    }
+  },
+  {
+    "names": [
+      "Nastasya Khrushcheva",
+      "Настасья Хрущёва"
+    ],
+    "platforms": {
+      "Yandex": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "VK": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "Zvuk": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "Apple": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "error: page.goto: Target page, context or browser has been closed"
+        ]
+      },
+      "Spotify": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "error: page.goto: Target page, context or browser has been closed"
+        ]
+      },
+      "YT": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "error: page.goto: Target page, context or browser has been closed"
+        ]
+      }
+    }
   }
 ]
