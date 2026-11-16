@@ -1,0 +1,953 @@
+[
+  {
+    "names": [
+      "Divertissement Chamber Orchestra",
+      "Камерный оркестр Дивертисмент"
+    ],
+    "platforms": {
+      "Yandex": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "VK": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "Zvuk": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "Apple": {
+        "candidates": [
+          {
+            "url": "https://music.apple.com/ru/artist/%D0%BA%D0%B0%D0%BC%D0%B5%D1%80%D0%BD%D1%8B%D0%B9-%D0%BE%D1%80%D0%BA%D0%B5%D1%81%D1%82%D1%80-%D0%B4%D0%B8%D0%B2%D0%B5%D1%80%D1%82%D0%B8%D1%81%D0%BC%D0%B5%D0%BD%D1%82/1340067505",
+            "text": "Камерный оркестр \"Дивертисмент\" · Артист",
+            "combined": false,
+            "verify": {
+              "name": "Камерный оркестр \"Дивертисмент\" — Apple Music",
+              "listeners": null,
+              "releases": 17,
+              "checked": 17,
+              "labels": {
+                "JSC \"Firma Melodiya\"": 14,
+                "FANCYMUSIC": 1,
+                "Fancymusic": 1,
+                "АО \"Фирма Мелодия\"": 1
+              },
+              "ours": true
+            }
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/chamber-orchestra/66085091",
+            "text": "Chamber Orchestra",
+            "combined": false,
+            "verify": {
+              "name": "Chamber Orchestra — Apple Music",
+              "listeners": null,
+              "releases": 18,
+              "checked": 18,
+              "labels": {
+                "Massive Productions": 1,
+                "Untuned Records": 2,
+                "℗ This compilation (P) 2021 Sony Music Entertainment": 1,
+                "Long Beach Poly Music": 2,
+                ", 2015 Sony Music Entertainment": 3,
+                "Sony Music Odyssey": 1,
+                "Cantor Azi Schwartz, Cantor Shiree Kidron, and Chamber Orchestra": 1,
+                "DiscoverClassicalMusic": 1,
+                "℗ Multisonic": 1,
+                "HUNGAROTON RECORDS LTD.": 1,
+                "Sony Music Entertainment": 2,
+                "Guy Lukowski": 1,
+                "Laser Records": 1
+              },
+              "ours": false
+            }
+          }
+        ],
+        "unmatched": [
+          {
+            "url": "https://music.apple.com/ru/artist/%D0%B8%D0%BB%D1%8C%D1%8F-%D0%B8%D0%BE%D1%84%D1%84/267168105",
+            "text": "Илья Иофф"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/lidia-kovalenko/1535259878",
+            "text": "Lidia Kovalenko"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/%D0%B2%D0%B5%D1%80%D0%B0-%D1%87%D0%B5%D0%BA%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0/1340067502",
+            "text": "Вера Чеканова"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/c-o-chamber-orchestra/1564753978",
+            "text": "c/o chamber orchestra"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/katia-marielle-lab%C3%A8que/1535276909",
+            "text": "Katia & Marielle Labèque"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/%D1%80%D1%83%D1%81%D1%82%D0%B0%D0%BC-%D0%BA%D0%BE%D0%BC%D0%B0%D1%87%D0%BA%D0%BE%D0%B2/299261335",
+            "text": "Рустам Комачков"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/alexei-goribol/429970413",
+            "text": "Alexei Goribol"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%B0%D0%BC%D0%B5%D1%80%D0%BD%D1%8B%D0%B9-%D0%BE%D1%80%D0%BA%D0%B5%D1%81%D1%82%D1%80-%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B8/596767190",
+            "text": "Государственный Академический Камерный Оркестр России · Артист"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/%D0%BA%D0%BE%D1%81%D0%BC%D0%BE%D0%BD%D0%B0%D0%B2%D1%82%D0%BE%D0%B2-%D0%BD%D0%B5%D1%82/1388263758",
+            "text": "КОСМОНАВТОВ НЕТ"
+          }
+        ],
+        "notes": []
+      },
+      "Spotify": {
+        "candidates": [
+          {
+            "url": "https://open.spotify.com/artist/4kkACyopQDNHpWh0LKpGVc",
+            "text": "Divertissement Chamber Orchestra",
+            "combined": false,
+            "verify": {
+              "name": "Divertissement Chamber Orchestra",
+              "listeners": null,
+              "releases": 4,
+              "checked": 4,
+              "labels": {
+                "Fancymusic": 3,
+                "JSC \"Firma Melodiya\"": 1
+              },
+              "ours": true
+            }
+          },
+          {
+            "url": "https://open.spotify.com/artist/0dgnCU79VD7dgFMn22bPuV",
+            "text": "Divertissement Сhamber Orchestra",
+            "combined": false,
+            "verify": {
+              "name": "Divertissement Сhamber Orchestra",
+              "listeners": null,
+              "releases": 47,
+              "checked": 8,
+              "labels": {
+                "FANCYMUSIC": 2,
+                "ООО \"Балт-Мьюзик\"": 5,
+                "Alexei Aigui": 1
+              },
+              "ours": true
+            }
+          },
+          {
+            "url": "https://open.spotify.com/artist/5Lnx9B0x8BXB5zWyzT6XDs",
+            "text": "Камерный оркестр \"Дивертисмент\"",
+            "combined": false,
+            "verify": {
+              "name": "Камерный оркестр \"Дивертисмент\"",
+              "listeners": null,
+              "releases": 81,
+              "checked": 8,
+              "labels": {
+                "JSC \"Firma Melodiya\"": 1,
+                "АО \"Фирма Мелодия\"": 1,
+                "Deutsche Grammophon GmbH, Berlin": 2,
+                "Orchestre symphonique de Montréal, Under Exclusive Licence To De": 1,
+                "℗ Originally released 1962, 1967 SONY BMG MUSIC ENTERTAINMENT": 1,
+                "BMG Entertainment": 1,
+                "Sony Music Entertainment Germany GmbH": 1
+              },
+              "ours": false
+            }
+          }
+        ],
+        "unmatched": [
+          {
+            "url": "https://open.spotify.com/artist/1VfDXOsmvKAtebAZ9KxQhC",
+            "text": "Chamber Orchestra of Europe"
+          },
+          {
+            "url": "https://open.spotify.com/artist/35pZsti1RSA5Zv98jAm8kX",
+            "text": "Orpheus Chamber Orchestra"
+          },
+          {
+            "url": "https://open.spotify.com/artist/2DO4p3CPDnInsJfg0jFfaF",
+            "text": "Английский камерный оркестр"
+          },
+          {
+            "url": "https://open.spotify.com/artist/2IS9rTtWwEfUEY4u3mecIT",
+            "text": "The Chamber Orchestra Of London"
+          },
+          {
+            "url": "https://open.spotify.com/artist/5dcDOUxhKWkMWsHzQF4J41",
+            "text": "Moscow Chamber Orchestra"
+          },
+          {
+            "url": "https://open.spotify.com/artist/0vFb3LsJFAOgLo3s8XI4B2",
+            "text": "Lithuanian Chamber Orchestra"
+          },
+          {
+            "url": "https://open.spotify.com/artist/0d9lUpaO0F9TJH1mEJ3Ec5",
+            "text": "Norwegian Chamber Orchestra"
+          },
+          {
+            "url": "https://open.spotify.com/artist/0QjKu8W5tafMCDKKw3xHYT",
+            "text": "Saint Paul Chamber Orchestra"
+          },
+          {
+            "url": "https://open.spotify.com/artist/1ziXHb2jDpxIxQqIckAZ0I",
+            "text": "Orchestre de chambre de Paris"
+          },
+          {
+            "url": "https://open.spotify.com/artist/7IVMee3CgA8bZWuA0e4FOX",
+            "text": "Kiev Chamber Orchestra"
+          },
+          {
+            "url": "https://open.spotify.com/artist/51RiZjPgKKJ1uDsZVmntmF",
+            "text": "Stuttgart Chamber Orchestra"
+          },
+          {
+            "url": "https://open.spotify.com/artist/7hrleJxjf4KJbeiQirb6BL",
+            "text": "Prague Chamber Orchestra"
+          },
+          {
+            "url": "https://open.spotify.com/artist/1mlMBjVFn5oeZLAXHIM5no",
+            "text": "Swedish Chamber Orchestra"
+          },
+          {
+            "url": "https://open.spotify.com/artist/45y5kS0Nhm3v7Do6W5dbcS",
+            "text": "Scottish Chamber Orchestra"
+          },
+          {
+            "url": "https://open.spotify.com/artist/3lisojeQ5S43CK54PmIxtv",
+            "text": "Northern Chamber Orchestra"
+          }
+        ],
+        "notes": []
+      },
+      "YT": {
+        "candidates": [
+          {
+            "url": "https://music.youtube.com/channel/UC04Krn7lTzPgzv-6XhT1YKQ",
+            "text": "The Divertissement Orchestra",
+            "combined": false
+          }
+        ],
+        "unmatched": [
+          {
+            "url": "https://music.youtube.com/channel/UCw9aQVBheS2raJ3qzlfnGdg",
+            "text": "쇠꽃 Iron Flower"
+          },
+          {
+            "url": "https://music.youtube.com/channel/UCSf-Xx-OHoEE-QVmOAhHqVg",
+            "text": "David Hurwitz: Критик классической музыки"
+          },
+          {
+            "url": "https://music.youtube.com/channel/UCgbspc8rK9tYAEGzeNv97mw",
+            "text": "Светлана Томчаковская"
+          },
+          {
+            "url": "https://music.youtube.com/channel/UCVyAJL-Qxk62dRH8STQxfpg",
+            "text": "елена куткина"
+          },
+          {
+            "url": "https://music.youtube.com/channel/UC2z9hBhpRmi84LNTlb8q0OQ",
+            "text": "Детская школа искусств №11"
+          },
+          {
+            "url": "https://music.youtube.com/channel/UCEdg61LFGxPSYYaywjSknIA",
+            "text": "DMITRIY Miture"
+          }
+        ],
+        "notes": []
+      }
+    }
+  },
+  {
+    "names": [
+      "Ilya Ioff",
+      "Илья Иофф"
+    ],
+    "platforms": {
+      "Yandex": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "VK": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "Zvuk": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "Apple": {
+        "candidates": [
+          {
+            "url": "https://music.apple.com/ru/artist/%D0%B8%D0%BB%D1%8C%D1%8F-%D0%B8%D0%BE%D1%84%D1%84/267168105",
+            "text": "Илья Иофф · Артист",
+            "combined": false,
+            "verify": {
+              "name": "Илья Иофф — Apple Music",
+              "listeners": null,
+              "releases": 22,
+              "checked": 20,
+              "labels": {
+                "JSC \"Firma Melodiya\"": 12,
+                "Memo Media Ltd.": 1,
+                "Kolkhi Media": 1,
+                "Fancymusic": 1,
+                "АО \"Фирма Мелодия\"": 1,
+                "Northern Flowers": 3,
+                "Halidon": 1
+              },
+              "ours": true
+            }
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/%D0%B8%D0%BB%D1%8C%D1%8F-%D0%B8%D0%BE%D1%84%D1%84/253448726",
+            "text": "Илья Иофф · Артист",
+            "combined": false,
+            "verify": {
+              "name": "Илья Иофф — Apple Music",
+              "listeners": null,
+              "releases": 16,
+              "checked": 16,
+              "labels": {
+                "Balt Music Jsc fka BOMBA-PITER": 2,
+                "Columna Música": 14
+              },
+              "ours": false
+            }
+          }
+        ],
+        "unmatched": [
+          {
+            "url": "https://music.apple.com/ru/artist/ilya/1314480200",
+            "text": "Ilya"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/saint-petersburg-orchestra-of-the-state-hermitage/503425315",
+            "text": ":root {\n            --icon: rgba(60, 60, 67, 0.18);\n            color-scheme: light dark;\n        }\n\n        @media (prefers-color-scheme: dark) {\n            :"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/ilya-ioff-lidia-kovalenko-alexei-ludevig-alexei-massarsky/509464998",
+            "text": ":root {\n            --icon: rgba(60, 60, 67, 0.18);\n            color-scheme: light dark;\n        }\n\n        @media (prefers-color-scheme: dark) {\n            :"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/igor-uryash-grigori-vigor-uryashoskoboinik-ilya-ioff/509466337",
+            "text": ":root {\n            --icon: rgba(60, 60, 67, 0.18);\n            color-scheme: light dark;\n        }\n\n        @media (prefers-color-scheme: dark) {\n            :"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/igor-uryash-ilya-ioff/509558307",
+            "text": ":root {\n            --icon: rgba(60, 60, 67, 0.18);\n            color-scheme: light dark;\n        }\n\n        @media (prefers-color-scheme: dark) {\n            :"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/lithuanian-chamber-orchestra-ilya-ioff-lidia-kovalenko/509464994",
+            "text": ":root {\n            --icon: rgba(60, 60, 67, 0.18);\n            color-scheme: light dark;\n        }\n\n        @media (prefers-color-scheme: dark) {\n            :"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/ilya-ioff-lidia-kovalenko-alexei-ludevig-alexei-massarsky/509462102",
+            "text": ":root {\n            --icon: rgba(60, 60, 67, 0.18);\n            color-scheme: light dark;\n        }\n\n        @media (prefers-color-scheme: dark) {\n            :"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/ilya-ioff-lidia-kovalenko-alexei-ludevig-alexei-massarsky/509464989",
+            "text": ":root {\n            --icon: rgba(60, 60, 67, 0.18);\n            color-scheme: light dark;\n        }\n\n        @media (prefers-color-scheme: dark) {\n            :"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/alexei-massarsky-alexei-ludevig-ilya-ioff-alexander/1062498644",
+            "text": ":root {\n            --icon: rgba(60, 60, 67, 0.18);\n            color-scheme: light dark;\n        }\n\n        @media (prefers-color-scheme: dark) {\n            :"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/igor-uryash-ilya-ioff-lidia-kovalenko-alexei-ludevig/509466341",
+            "text": ":root {\n            --icon: rgba(60, 60, 67, 0.18);\n            color-scheme: light dark;\n        }\n\n        @media (prefers-color-scheme: dark) {\n            :"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/lidia-kovalenko/1535259878",
+            "text": "Lidia Kovalenko"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/%D0%BA%D0%B0%D0%BC%D0%B5%D1%80%D0%BD%D1%8B%D0%B9-%D0%BE%D1%80%D0%BA%D0%B5%D1%81%D1%82%D1%80-%D0%B4%D0%B8%D0%B2%D0%B5%D1%80%D1%82%D0%B8%D1%81%D0%BC%D0%B5%D0%BD%D1%82/1340067505",
+            "text": "Камерный оркестр \"Дивертисмент\""
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/%D0%B2%D0%B5%D1%80%D0%B0-%D1%87%D0%B5%D0%BA%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0/1340067502",
+            "text": "Вера Чеканова"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/divertissement-string-orchestra/434548560",
+            "text": "Divertissement String Orchestra"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/anonymous/223827",
+            "text": "Anonymous"
+          }
+        ],
+        "notes": []
+      },
+      "Spotify": {
+        "candidates": [
+          {
+            "url": "https://open.spotify.com/artist/3o3zc4ObBDYSRqn9KkfIln",
+            "text": "Ilya Ioff",
+            "combined": false,
+            "verify": {
+              "name": "Ilya Ioff",
+              "listeners": null,
+              "releases": 15,
+              "checked": 8,
+              "labels": {
+                "Fancymusic": 2,
+                "JSC \"Firma Melodiya\"": 1,
+                "Northern Flowers": 1,
+                "Warner Music Group - X5 Music Group": 2,
+                "X5 Music Group": 1
+              },
+              "ours": true
+            }
+          },
+          {
+            "url": "https://open.spotify.com/artist/2WYblYNSfLHZVOM1rniWh5",
+            "text": "Igor Uryash, Ilya Ioff",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/0akTXb5YBZOKSFVmmwVSUJ",
+            "text": "Ilya Ioff; Lidia Kovalenko; Alexei Ludevig; Alexei Massarsky, Alexei Ludevig, Ilya Ioff, Alexander Sukhotsky",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/2vsis22bWpd8NvsKY5qd8W",
+            "text": "Saint Petersburg Orchestra of the State Hermitage Museum Camerata, Pavel Bubelnikov, Alexei Ludevig, Ilya Ioff",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/7JcLrzKWUAchgJ9PQIeTad",
+            "text": "Lidia Kovalenko, Alexei Ludevig, Ilya Ioff, Lidia Kovalenko, Alexei Ludevig, Ilya Ioff, Lidia Kovalenko",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/6RHNcQ75ZIS34HOgXGyaLU",
+            "text": "Ilya Ioff; Lidia Kovalenko; Alexei Ludevig; Alexei Massarsky, Alexei Ludevig, Ilya Ioff, Lidia Kovalenko",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/0tNSoBUX0mE9Yr9ShHLURq",
+            "text": "Ilya Ioff; Lidia Kovalenko; Alexei Ludevig; Alexei Massarsky, Alexei Ludevig, Ilya Ioff, Lidia Kovalenko, Alexei Ludevig, Ilya Ioff, Lidia Kovalenko",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/6YKsnwuyFPk4Fha2IqfkQM",
+            "text": "Igor Uryash, Grigori VIgor Uryashoskoboinik, Ilya Ioff; Lidia Kovalenko; Alexei Ludevig; Alexei Massarsky, Alexei Ludevig, Ilya Ioff, Igor Uryash, Grigori VIgor",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/7egs4c3q2Fg3gPvgh30imC",
+            "text": "Igor Uryash, Ilya Ioff; Lidia Kovalenko; Alexei Ludevig; Alexei Massarsky, Alexei Ludevig, Ilya Ioff, Grigory Voskoboinik, Igor Uryash, Alexei Ludevig, Ilya Iof",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/7dn4N3V6bHcvkiKYqMNw5F",
+            "text": "Lithuanian Chamber Orchestra, Ilya Ioff; Lidia Kovalenko; Alexei Ludevig; Alexei Massarsky, Alexei Ludevig, Ilya Ioff, Alexander Sukhotsky",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/4Ti3FY74jsnryKalUZvSln",
+            "text": "Alexei Massarsky, Alexei Ludevig, Ilya Ioff, Lidia Kovalenko, Alexei Ludevig, Ilya Ioff, Lidia Kovalenko",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/0m1yMB2CJc3rA4TK85b4jJ",
+            "text": "Saint Petersburg Orchestra of the State Hermitage Museum Camerata, Pavel Bubelnikov, Ilya Ioff",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/2zPImz0nczAAzTjsUanZx7",
+            "text": "Alexei Massarsky, Alexei Ludevig, Ilya Ioff, Lidia Kovalenko",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/3Fyhp1mSfmPXDypmLDEU8E",
+            "text": "St.Petersburg Orchestra of the State Hermitage Museum Camerata, Pavel Bubelnikov, Ilya Ioff",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/1oyGdBlGCGVKZMqX1ug4sR",
+            "text": "Илья Иофф",
+            "combined": false,
+            "verify": {
+              "name": "Илья Иофф",
+              "listeners": null,
+              "releases": 3,
+              "checked": 3,
+              "labels": {
+                "JSC \"Firma Melodiya\"": 1,
+                "АО \"Фирма Мелодия\"": 1,
+                "ООО \"Балт-Мьюзик\"": 1
+              },
+              "ours": false
+            }
+          }
+        ],
+        "unmatched": [
+          {
+            "url": "https://open.spotify.com/artist/160ymszCn8CIm01CQFiiM6",
+            "text": "Ilya Fisherman"
+          },
+          {
+            "url": "https://open.spotify.com/artist/1t6Ehoqbg3IbWEzq4wkNSq",
+            "text": "Ilya Konoplev"
+          },
+          {
+            "url": "https://open.spotify.com/artist/4TbQ2MpPMZfOWTcm6c5RaA",
+            "text": "Ilya Beshevli"
+          },
+          {
+            "url": "https://open.spotify.com/artist/5FhfjuIHz6wtcKdhYMfpfj",
+            "text": "Ilya Kuznetsov"
+          },
+          {
+            "url": "https://open.spotify.com/artist/3GWnzwTAnzpZYIbNhRNhtz",
+            "text": "Ilya Orange"
+          },
+          {
+            "url": "https://open.spotify.com/artist/4EMO8mOHQo3Y0rcshRc11l",
+            "text": "Ilya Gadaev"
+          },
+          {
+            "url": "https://open.spotify.com/artist/0kQN5Z4VFXjTbG4fsJsCXk",
+            "text": "Ilya Lagutenko"
+          },
+          {
+            "url": "https://open.spotify.com/artist/6v0qM3UbgdKlzIMRow87s2",
+            "text": "ilyhiryu"
+          },
+          {
+            "url": "https://open.spotify.com/artist/6davOCCGNwo3Pcrwb5xGBU",
+            "text": "Ilya Ovchinnikov"
+          },
+          {
+            "url": "https://open.spotify.com/artist/4aB5pav0GseQQDvSugsFcK",
+            "text": "Ilya Tereshchuk"
+          },
+          {
+            "url": "https://open.spotify.com/artist/58V1mBG998BXT4jR5YvIGt",
+            "text": "ily"
+          },
+          {
+            "url": "https://open.spotify.com/artist/2gGvBjb55mnnbQO2gNQSLo",
+            "text": "ONDA ANDAR"
+          },
+          {
+            "url": "https://open.spotify.com/artist/7yH0tCtttU4pORkXn6rWZS",
+            "text": "Olya Holiday"
+          },
+          {
+            "url": "https://open.spotify.com/artist/5KCYLDsEl66RUT0uXm5ZzI",
+            "text": "MIGAS"
+          },
+          {
+            "url": "https://open.spotify.com/artist/1JSXMl2sk9acCPV5USguCq",
+            "text": "ILYSANITA"
+          }
+        ],
+        "notes": []
+      },
+      "YT": {
+        "candidates": [],
+        "unmatched": [
+          {
+            "url": "https://music.youtube.com/channel/UC04Krn7lTzPgzv-6XhT1YKQ",
+            "text": "The Divertissement Orchestra"
+          },
+          {
+            "url": "https://music.youtube.com/channel/UCCuetVDB_f8rU3N6f_8oI0w",
+            "text": ""
+          },
+          {
+            "url": "https://music.youtube.com/channel/UCDwUhRcYN-sSdjTpsBWzDWA",
+            "text": "uyildiz"
+          },
+          {
+            "url": "https://music.youtube.com/channel/UC9bdx7NVSYxw4flefCMTX4g",
+            "text": "Melani Mestre"
+          },
+          {
+            "url": "https://music.youtube.com/channel/UCxZ9JJ9vAiFNAo7ITOx2G9A",
+            "text": ""
+          },
+          {
+            "url": "https://music.youtube.com/channel/UCOwaHATJuleH7OKyGO5hvMA",
+            "text": ""
+          },
+          {
+            "url": "https://music.youtube.com/channel/UCsXruMjGHs8ChdOn3ykx-GQ",
+            "text": "Jimmy Naraine"
+          },
+          {
+            "url": "https://music.youtube.com/channel/UCwOwqrOL5cl-oFsP20-4I0g",
+            "text": "Lifers with Christina Farr"
+          },
+          {
+            "url": "https://music.youtube.com/channel/UCppxC5k5MV_XTcfo6pu9cng",
+            "text": "R136 Ventures"
+          },
+          {
+            "url": "https://music.youtube.com/channel/UCDeBKK6lQ9LpP3DGXOxWQug",
+            "text": "Сафрошин Виктор"
+          },
+          {
+            "url": "https://music.youtube.com/channel/UCz4MReE2GkcsYap5QUwoY0g",
+            "text": "Филармоническое общество Санкт-Петербурга"
+          },
+          {
+            "url": "https://music.youtube.com/channel/UCGnuepMigwFouhrCTssci4Q",
+            "text": "Настасья Хрущева"
+          }
+        ],
+        "notes": []
+      }
+    }
+  },
+  {
+    "names": [
+      "Lidia Kovalenko",
+      "Лидия Коваленко"
+    ],
+    "platforms": {
+      "Yandex": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "VK": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "Zvuk": {
+        "candidates": [],
+        "unmatched": [],
+        "notes": [
+          "skipped"
+        ]
+      },
+      "Apple": {
+        "candidates": [
+          {
+            "url": "https://music.apple.com/ru/artist/lidia-kovalenko/1535259878",
+            "text": "Lidia Kovalenko · Артист",
+            "combined": false,
+            "verify": {
+              "name": "Lidia Kovalenko — Apple Music",
+              "listeners": null,
+              "releases": 15,
+              "checked": 15,
+              "labels": {
+                "Fancymusic": 15
+              },
+              "ours": true
+            }
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/%D0%BB%D0%B8%D0%B4%D0%B8%D1%8F-%D0%BA%D0%BE%D0%B2%D0%B0%D0%BB%D0%B5%D0%BD%D0%BA%D0%BE/267168108",
+            "text": "Лидия Коваленко · Артист",
+            "combined": false,
+            "verify": {
+              "name": "Лидия Коваленко — Apple Music",
+              "listeners": null,
+              "releases": 16,
+              "checked": 16,
+              "labels": {
+                "JSC \"Firma Melodiya\"": 6,
+                "Acewonder ltd.": 1,
+                "Northern Flowers": 9
+              },
+              "ours": false
+            }
+          }
+        ],
+        "unmatched": [
+          {
+            "url": "https://music.apple.com/ru/artist/lithuanian-chamber-orchestra-ilya-ioff-lidia-kovalenko/509464994",
+            "text": ":root {\n            --icon: rgba(60, 60, 67, 0.18);\n            color-scheme: light dark;\n        }\n\n        @media (prefers-color-scheme: dark) {\n            :"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/ilya-ioff-lidia-kovalenko-alexei-ludevig-alexei-massarsky/509464998",
+            "text": ":root {\n            --icon: rgba(60, 60, 67, 0.18);\n            color-scheme: light dark;\n        }\n\n        @media (prefers-color-scheme: dark) {\n            :"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/igor-uryash-grigori-vigor-uryashoskoboinik-ilya-ioff/509466337",
+            "text": ":root {\n            --icon: rgba(60, 60, 67, 0.18);\n            color-scheme: light dark;\n        }\n\n        @media (prefers-color-scheme: dark) {\n            :"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/ilya-ioff-lidia-kovalenko-alexei-ludevig-alexei-massarsky/509464989",
+            "text": ":root {\n            --icon: rgba(60, 60, 67, 0.18);\n            color-scheme: light dark;\n        }\n\n        @media (prefers-color-scheme: dark) {\n            :"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/ilya-ioff-lidia-kovalenko-alexei-ludevig-alexei-massarsky/509462102",
+            "text": ":root {\n            --icon: rgba(60, 60, 67, 0.18);\n            color-scheme: light dark;\n        }\n\n        @media (prefers-color-scheme: dark) {\n            :"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/igor-uryash-ilya-ioff-lidia-kovalenko-alexei-ludevig/509466341",
+            "text": ":root {\n            --icon: rgba(60, 60, 67, 0.18);\n            color-scheme: light dark;\n        }\n\n        @media (prefers-color-scheme: dark) {\n            :"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/%D0%B8%D0%BB%D1%8C%D1%8F-%D0%B8%D0%BE%D1%84%D1%84/267168105",
+            "text": "Илья Иофф"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/%D0%BA%D0%B0%D0%BC%D0%B5%D1%80%D0%BD%D1%8B%D0%B9-%D0%BE%D1%80%D0%BA%D0%B5%D1%81%D1%82%D1%80-%D0%B4%D0%B8%D0%B2%D0%B5%D1%80%D1%82%D0%B8%D1%81%D0%BC%D0%B5%D0%BD%D1%82/1340067505",
+            "text": "Камерный оркестр \"Дивертисмент\""
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9-%D0%BC%D0%B0%D1%81%D1%81%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9/434502949",
+            "text": "Алексей Массарский"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/%D0%B5%D0%BB%D0%B5%D0%BD%D0%B0-%D1%80%D0%B0%D1%81%D0%BA%D0%BE%D0%B2%D0%B0/434502953",
+            "text": "Елена Раскова"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/%D1%8E%D1%80%D0%B8%D0%B9-%D1%81%D0%B5%D1%80%D0%BE%D0%B2/129728715",
+            "text": "Юрий Серов"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/alexey-baev/436366990",
+            "text": "Alexey Baev"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/%D0%B0%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9-%D0%BF%D0%BE%D0%BF%D0%BE%D0%B2/286070546",
+            "text": "Алексей Попов"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/kirill-timofeev/436366996",
+            "text": "Kirill Timofeev"
+          },
+          {
+            "url": "https://music.apple.com/ru/artist/%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B5%D1%82-%D0%B8%D0%BC-%D1%82%D0%B0%D0%BD%D0%B5%D0%B5%D0%B2%D0%B0/129888484",
+            "text": "Квартет им.Танеева"
+          }
+        ],
+        "notes": []
+      },
+      "Spotify": {
+        "candidates": [
+          {
+            "url": "https://open.spotify.com/artist/40IK3p5LGvJoB0SF9O0OqR",
+            "text": "Lidia Kovalenko",
+            "combined": false,
+            "verify": {
+              "name": "Lidia Kovalenko",
+              "listeners": null,
+              "releases": 9,
+              "checked": 8,
+              "labels": {
+                "Fancymusic": 2,
+                "Northern Flowers": 4,
+                "Delos": 1,
+                "JSC \"Firma Melodiya\"": 1
+              },
+              "ours": true
+            }
+          },
+          {
+            "url": "https://open.spotify.com/artist/0akTXb5YBZOKSFVmmwVSUJ",
+            "text": "Ilya Ioff; Lidia Kovalenko; Alexei Ludevig; Alexei Massarsky, Alexei Ludevig, Ilya Ioff, Alexander Sukhotsky",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/7JcLrzKWUAchgJ9PQIeTad",
+            "text": "Lidia Kovalenko, Alexei Ludevig, Ilya Ioff, Lidia Kovalenko, Alexei Ludevig, Ilya Ioff, Lidia Kovalenko",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/4NsP20bRrM0KAnKh8HsdlO",
+            "text": "Lidia Kovalenko, Alexei Ludevig, Ilya Ioff, Lidia Kovalenko",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/6RHNcQ75ZIS34HOgXGyaLU",
+            "text": "Ilya Ioff; Lidia Kovalenko; Alexei Ludevig; Alexei Massarsky, Alexei Ludevig, Ilya Ioff, Lidia Kovalenko",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/7dn4N3V6bHcvkiKYqMNw5F",
+            "text": "Lithuanian Chamber Orchestra, Ilya Ioff; Lidia Kovalenko; Alexei Ludevig; Alexei Massarsky, Alexei Ludevig, Ilya Ioff, Alexander Sukhotsky",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/6YKsnwuyFPk4Fha2IqfkQM",
+            "text": "Igor Uryash, Grigori VIgor Uryashoskoboinik, Ilya Ioff; Lidia Kovalenko; Alexei Ludevig; Alexei Massarsky, Alexei Ludevig, Ilya Ioff, Igor Uryash, Grigori VIgor",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/7egs4c3q2Fg3gPvgh30imC",
+            "text": "Igor Uryash, Ilya Ioff; Lidia Kovalenko; Alexei Ludevig; Alexei Massarsky, Alexei Ludevig, Ilya Ioff, Grigory Voskoboinik, Igor Uryash, Alexei Ludevig, Ilya Iof",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/0tNSoBUX0mE9Yr9ShHLURq",
+            "text": "Ilya Ioff; Lidia Kovalenko; Alexei Ludevig; Alexei Massarsky, Alexei Ludevig, Ilya Ioff, Lidia Kovalenko, Alexei Ludevig, Ilya Ioff, Lidia Kovalenko",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/4Ti3FY74jsnryKalUZvSln",
+            "text": "Alexei Massarsky, Alexei Ludevig, Ilya Ioff, Lidia Kovalenko, Alexei Ludevig, Ilya Ioff, Lidia Kovalenko",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/2zPImz0nczAAzTjsUanZx7",
+            "text": "Alexei Massarsky, Alexei Ludevig, Ilya Ioff, Lidia Kovalenko",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/1Vog5mN0aj6582dHQYsv7M",
+            "text": "Igor Uryash, Grigori VIgor Uryashoskoboinik, Lidia Kovalenko, Alexei Ludevig, Ilya Ioff, Igor Uryash, Grigori VIgor Uryashoskoboinik, Alexei Ludevig, Ilya Ioff",
+            "combined": true
+          },
+          {
+            "url": "https://open.spotify.com/artist/5x7LZGHbsRHlqAj9gXwQI3",
+            "text": "Лидия Коваленко",
+            "combined": false,
+            "verify": {
+              "name": "Лидия Коваленко",
+              "listeners": null,
+              "releases": 62,
+              "checked": 8,
+              "labels": {
+                "АО \"Фирма Мелодия\"": 1,
+                "Aemeralds GmbH": 2,
+                "Sony Classical, a label of Sony Music Entertainment": 1,
+                "Sony Music Entertainment": 1,
+                "Universal Music Ltd.": 2,
+                "Mosaic Arts & Media – Ute Fesquet, under exclusive license to De": 1
+              },
+              "ours": false
+            }
+          }
+        ],
+        "unmatched": [
+          {
+            "url": "https://open.spotify.com/artist/0kaBaJw6hfkYVHv7Fz4iov",
+            "text": "Лирида"
+          },
+          {
+            "url": "https://open.spotify.com/artist/2BE15N2qUILTT75nyoEOO0",
+            "text": "Лидия Клемент"
+          },
+          {
+            "url": "https://open.spotify.com/artist/0gOrXuu1vCBXe3pwTyb5Ca",
+            "text": "Valentina Lisitsa"
+          },
+          {
+            "url": "https://open.spotify.com/artist/5N4JPCILHmKjyrhr97DOpG",
+            "text": "Olexandr Ignatov"
+          },
+          {
+            "url": "https://open.spotify.com/artist/3gyMSbylsDuJor2dpGQ96m",
+            "text": "Anastasia Kobekina"
+          },
+          {
+            "url": "https://open.spotify.com/artist/6vMhbfl1lUrJ2AhVe3moTX",
+            "text": "Lidia Chernykh"
+          },
+          {
+            "url": "https://open.spotify.com/artist/4Q72w3Y5FXJCzN5ehkoqLj",
+            "text": "Линда"
+          },
+          {
+            "url": "https://open.spotify.com/artist/1PAvmfu0TKYSVVWGl3uJNC",
+            "text": "Yolka"
+          },
+          {
+            "url": "https://open.spotify.com/artist/1t6OTC1dbNIqb1jOUnfVQf",
+            "text": "Марія Чайковська"
+          },
+          {
+            "url": "https://open.spotify.com/artist/0NzCpFJbPBZOQylvKJ25AJ",
+            "text": "Pavel Kolesnikov"
+          },
+          {
+            "url": "https://open.spotify.com/artist/0YwrOhohoMLyIKD9OvUIuy",
+            "text": "Lida Lee"
+          },
+          {
+            "url": "https://open.spotify.com/artist/5JdGGCCPo07UPcbg27cQXT",
+            "text": "Лолита"
+          },
+          {
+            "url": "https://open.spotify.com/artist/6lPJV4RlngIEnb6OzcwMDL",
+            "text": "Елена Темникова"
+          },
+          {
+            "url": "https://open.spotify.com/artist/0Y5iFEqyfy3mNg09ZC6b5t",
+            "text": "Юлия Савичева"
+          },
+          {
+            "url": "https://open.spotify.com/artist/4sTO5nmBIlTF35aTnt6U7n",
+            "text": "Луна"
+          }
+        ],
+        "notes": []
+      },
+      "YT": {
+        "candidates": [
+          {
+            "url": "https://music.youtube.com/channel/UC0EZjwpXL-gl_ICuRsQ8UgQ",
+            "text": "Kovalenko Lidiya",
+            "combined": false
+          }
+        ],
+        "unmatched": [
+          {
+            "url": "https://music.youtube.com/channel/UC04Krn7lTzPgzv-6XhT1YKQ",
+            "text": "The Divertissement Orchestra"
+          },
+          {
+            "url": "https://music.youtube.com/channel/UCU6JZ18WwDmP1hoPKLo91Og",
+            "text": ""
+          },
+          {
+            "url": "https://music.youtube.com/channel/UCmNHt2IcJWOfo9BVmyVdbfQ",
+            "text": ""
+          },
+          {
+            "url": "https://music.youtube.com/channel/UCcDRdHV38c37Lci3gPyJHpg",
+            "text": "Yanis Salimov 3D artist"
+          },
+          {
+            "url": "https://music.youtube.com/channel/UC5Om6qH5-OyfDPsITsYYTfw",
+            "text": "Fără Limite"
+          }
+        ],
+        "notes": [
+          "error: page.waitForTimeout: Target page, context or browser has been closed"
+        ]
+      }
+    }
+  }
+]
