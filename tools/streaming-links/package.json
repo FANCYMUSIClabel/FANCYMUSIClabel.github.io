@@ -1,0 +1,14 @@
+{
+  "name": "streaming-links",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Поиск профилей артистов на Яндекс Музыке, VK, Звуке, Apple Music, Spotify и YouTube Music с проверкой лейбла по строке ℗",
+  "scripts": {
+    "login": "node find-links.mjs --login",
+    "find": "node find-links.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}
