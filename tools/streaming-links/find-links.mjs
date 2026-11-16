@@ -6,7 +6,8 @@
 //   node find-links.mjs ../../streaming/artists/2026-11-16.txt
 //   node find-links.mjs "Владимир Мартынов | Vladimir Martynov"
 //
-// Ключи: --headed (с окном), --no-verify (без проверки лейбла), --label "Fancymusic" (какой лейбл считать своим).
+// Ключи: --headed (с окном), --no-verify (без проверки лейбла), --label "Fancymusic" (какой лейбл считать своим),
+//        --only Apple,Spotify,YT (только эти площадки — например, из-за рубежа, где остальные закрыты).
 // Результат: streaming/results/<имя>.json (все кандидаты с лейблами и слушателями) и <имя>.md (черновик ответа).
 
 import { chromium } from 'playwright';
@@ -101,7 +102,7 @@ async function verify(page, platform, url, label) {
   }
   r.releases = albums.length;
   const re = new RegExp(label.replace(/\s+/g, '\\s*'), 'i');
-  for (const a of albums.slice(0, sp ? 8 : 40)) {
+  for (const a of albums.slice(0, sp ? 8 : 20)) {
     await page.goto(a, { waitUntil: 'domcontentloaded', timeout: 45000 }); await page.waitForTimeout(sp ? 3500 : 2200);
     const t = await page.locator('body').innerText().catch(() => '');
     for (const l of new Set((t.match(/℗[^\n]{0,70}/g) || []).map(s => s.replace(/℗\s*(\(P\)\s*)?\d{4}\s*/, '').trim())))
@@ -152,7 +153,9 @@ async function main() {
   const args = process.argv.slice(2);
   if (args[0] === '--login') return login();
   const opt = k => { const i = args.indexOf(k); return i >= 0 ? args[i + 1] : null; };
-  const input = args.find((a, i) => !a.startsWith('--') && args[i - 1] !== '--label');
+  const input = args.find((a, i) => !a.startsWith('--') && !['--label', '--only'].includes(args[i - 1]));
+  const only = opt('--only')?.split(',').map(s => s.trim().toLowerCase());
+  const platforms = only ? PLATFORMS.filter(p => only.includes(p.key.toLowerCase())) : PLATFORMS;
   if (!input) { console.error('Укажите файл со списком или имя артиста.'); process.exit(1); }
   const label = opt('--label') || 'Fancy\\s*music';
   const artists = parseArtists(input);
@@ -165,6 +168,7 @@ async function main() {
   for (const names of artists) {
     const entry = { names, platforms: {} };
     for (const p of PLATFORMS) {
+      if (!platforms.includes(p)) { entry.platforms[p.key] = { candidates: [], unmatched: [], notes: ['skipped'] }; continue; }
       const found = new Map(); const notes = new Set(); const other = new Map();
       for (const q of names) {
         try {
@@ -175,7 +179,7 @@ async function main() {
       }
       const candidates = [...found.values()].map(c => ({ ...c, combined: isCombined(c.text) }));
       if (!args.includes('--no-verify') && (p.key === 'Apple' || p.key === 'Spotify'))
-        for (const c of candidates) {
+        for (const c of candidates.filter(c => !c.combined)) { // сборные профили не проверяем: свой профиль у артиста отдельный
           try { c.verify = await verify(page, p.key, c.url, label); } catch (e) { c.verify = { error: e.message.split('\n')[0], labels: {} }; }
         }
       entry.platforms[p.key] = { candidates, unmatched: [...other.values()].filter(l => !found.has(l.url)).slice(0, 15), notes: [...notes] };
@@ -183,11 +187,11 @@ async function main() {
       process.stdout.write(`${names[0]} — ${p.key}: ${found.size}${ours ? `, с лейблом ${ours}` : ''}${notes.size ? ' (' + [...notes].join(', ') + ')' : ''}\n`);
     }
     out.push(entry);
+    // сохраняем после каждого артиста: если прогон оборвётся, готовое не потеряется
+    fs.writeFileSync(path.join(RESULTS_DIR, base + '.json'), JSON.stringify(out, null, 2));
+    fs.writeFileSync(path.join(RESULTS_DIR, base + '.draft.md'), toMarkdown(out) + '\n');
   }
   await ctx.close();
-
-  fs.writeFileSync(path.join(RESULTS_DIR, base + '.json'), JSON.stringify(out, null, 2));
-  fs.writeFileSync(path.join(RESULTS_DIR, base + '.draft.md'), toMarkdown(out) + '\n');
   console.log(`\nГотово: streaming/results/${base}.json и ${base}.draft.md — ЧЕРНОВИК, кандидатов нужно проверить.`);
 }
 

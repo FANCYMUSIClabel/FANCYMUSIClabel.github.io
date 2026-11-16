@@ -22,6 +22,7 @@ node find-links.mjs ../../streaming/artists/2026-11-16.txt           # спис�
 node find-links.mjs "Владимир Мартынов | Vladimir Martynov"           # одно имя
 node find-links.mjs ../../streaming/artists/list.txt --headed         # с окном
 node find-links.mjs ../../streaming/artists/list.txt --no-verify      # без проверки лейбла, быстрее
+node find-links.mjs ../../streaming/artists/list.txt --only Apple,Spotify,YT  # из-за рубежа
 node find-links.mjs ../../streaming/artists/list.txt --label "Melodiya"  # чужой лейбл
 ```
 
@@ -41,6 +42,7 @@ node find-links.mjs ../../streaming/artists/list.txt --label "Melodiya"  # чу�
 | `region-blocked` | Площадка недоступна из этой страны: Яндекс из-за рубежа |
 | `captcha` | Площадка приняла браузер за бота: Звук из облака |
 | `login-required` | VK без входа: `node find-links.mjs --login` |
+| `skipped` | Площадка исключена ключом `--only` |
 | `browser-unsupported` | YouTube Music не принял браузер: обновите user agent в `UA` |
 
 ## Где запускать
